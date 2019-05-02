@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"stm32f401ccu6_bluetooth_pwm\startup_stm32f401xc.o"
+"stm32f401ccu6_bluetooth_pwm\main.o"
+"stm32f401ccu6_bluetooth_pwm\stm32f4xx_it.o"
+"stm32f401ccu6_bluetooth_pwm\stm32f4xx_hal_msp.o"
+"stm32f401ccu6_bluetooth_pwm\stm32f4xx_hal_tim.o"
+"stm32f401ccu6_bluetooth_pwm\stm32f4xx_hal_tim_ex.o"
+"stm32f401ccu6_bluetooth_pwm\stm32f4xx_hal_rcc.o"
+"stm32f401ccu6_bluetooth_pwm\stm32f4xx_hal_rcc_ex.o"
+"stm32f401ccu6_bluetooth_pwm\stm32f4xx_hal_flash.o"
+"stm32f401ccu6_bluetooth_pwm\stm32f4xx_hal_flash_ex.o"
+"stm32f401ccu6_bluetooth_pwm\stm32f4xx_hal_flash_ramfunc.o"
+"stm32f401ccu6_bluetooth_pwm\stm32f4xx_hal_gpio.o"
+"stm32f401ccu6_bluetooth_pwm\stm32f4xx_hal_dma_ex.o"
+"stm32f401ccu6_bluetooth_pwm\stm32f4xx_hal_dma.o"
+"stm32f401ccu6_bluetooth_pwm\stm32f4xx_hal_pwr.o"
+"stm32f401ccu6_bluetooth_pwm\stm32f4xx_hal_pwr_ex.o"
+"stm32f401ccu6_bluetooth_pwm\stm32f4xx_hal_cortex.o"
+"stm32f401ccu6_bluetooth_pwm\stm32f4xx_hal.o"
+"stm32f401ccu6_bluetooth_pwm\stm32f4xx_hal_exti.o"
+"stm32f401ccu6_bluetooth_pwm\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "stm32f401ccu6_bluetooth_pwm\stm32f401ccu6_bluetooth_pwm.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "stm32f401ccu6_bluetooth_pwm.map" -o stm32f401ccu6_bluetooth_pwm\stm32f401ccu6_bluetooth_pwm.axf
